@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"hudCoins\":\"15 / 15 COINS\",\"evidence\":{\"1\":{\"finished\":true,\"name\":\"All summit jumps and finish line\",\"position\":\"-3.476088750176132e-08, 53.99802017211914, 284.1387939453125\",\"health\":100,\"stage\":3,\"coins\":15}},\"passed\":true,\"firstCoinHidden\":true}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

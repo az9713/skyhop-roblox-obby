@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"hud\":\"0 / 15 COINS\",\"winPanelHidden\":true,\"position\":\"0, 44.54801940917969, -1\",\"firstCoinVisible\":true,\"checkpoint\":1,\"passed\":true,\"coins\":0}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

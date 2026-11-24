@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"hudCoins\":\"5 / 15 COINS\",\"evidence\":{\"1\":{\"finished\":false,\"name\":\"All five rainbow jumps and checkpoint 2\",\"position\":\"-7.275957614183426e-12, 44.54801940917969, 95.14532470703125\",\"health\":100,\"stage\":2,\"coins\":5}},\"passed\":true,\"firstCoinHidden\":true}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

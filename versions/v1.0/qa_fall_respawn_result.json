@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"coinsRetained\":10,\"checkpoint\":3,\"fallKilled\":true,\"passed\":true,\"respawnPosition\":\"0, 44.54801940917969, 183\"}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

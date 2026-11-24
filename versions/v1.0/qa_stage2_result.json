@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"hudCoins\":\"10 / 15 COINS\",\"evidence\":{\"1\":{\"finished\":false,\"name\":\"Four lava jumps, exit gap, and checkpoint 3\",\"position\":\"1.8189894035458565e-12, 44.54801940917969, 183.83905029296875\",\"health\":100,\"stage\":3,\"coins\":10}},\"passed\":true,\"firstCoinHidden\":true}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

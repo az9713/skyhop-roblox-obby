@@ -1,0 +1,18 @@
+# This repository publishes only the original Skyhop release.
+/*
+!/.gitignore
+!/README.md
+!/assets/
+/assets/*
+!/assets/screenshots/
+/assets/screenshots/*
+!/assets/screenshots/course-overview.jpg
+!/assets/screenshots/rainbow-steps.jpg
+!/assets/screenshots/lava-lane.jpg
+!/assets/screenshots/summit-sprint.jpg
+!/assets/screenshots/finish-gate.jpg
+!/versions/
+/versions/*
+!/versions/v1.0/
+*.lock
+__pycache__/

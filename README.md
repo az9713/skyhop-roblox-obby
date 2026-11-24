@@ -34,6 +34,12 @@ Claude Code can use the same local Roblox Studio MCP server as Codex. Claude Cod
 2. In **Assistant Settings → MCP Servers → Quick connect**, select **Claude Code CLI** (listed as **Claude Code** in Roblox’s guide). If it’s missing, restart Studio after installing Claude Code. [Roblox Quick Connect guide](https://create.roblox.com/docs/studio/mcp#quick-connect)
 3. Start a new local Claude Code session and enter `/mcp` to check the connection. Then ask Claude Code to list your open Studio places with `list_roblox_studios` and inspect `Workspace.SkyhopObby`. [Anthropic’s Claude Code MCP guide](https://code.claude.com/docs/en/mcp#managing-your-servers)
 
+### Claude Code MCP test on Skyhop v1.0
+
+Claude Code 2.1.331 connected through Roblox’s official local MCP launcher and made five successful read-only calls. `list_roblox_studios` found a temporary copy of the archived v1.0 place open in Edit mode. `inspect_instance` and `search_game_tree` confirmed that `Workspace.SkyhopObby` contains three stages, 15 coins, three checkpoints, and `Finish.Trigger`.
+
+The test used a temporary, session-specific configuration passed with `--mcp-config` and `--strict-mcp-config`. It covered discovery and inspection through the CLI. The Studio Quick Connect toggle and gameplay were outside the scope of this test. The temporary place file matched the archived v1.0 file byte for byte after inspection.
+
 ## Screenshots
 
 **Rainbow Steps**

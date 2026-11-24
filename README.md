@@ -26,6 +26,14 @@ Codex turned the brief into Luau and sent tool requests to Roblox’s local Stud
 
 To set up your own connection, open **Assistant → … → Manage MCP Servers** in Studio and enable **Studio as MCP server**. Use Codex’s quick connect option if available, and use `list_roblox_studios` to identify the open place. The full setup options are in the [Roblox Studio MCP guide](https://create.roblox.com/docs/studio/mcp).
 
+## Connect Roblox Studio to Claude Code through MCP
+
+Claude Code can use the same local Roblox Studio MCP server as Codex. Claude Code sends tool calls, and Studio runs them against the open place and returns the results. For example, Claude Code can use `search_game_tree` to inspect the course, `execute_luau` to edit it, and `start_stop_play` to run a playtest. [Roblox Studio MCP tools](https://create.roblox.com/docs/studio/mcp#how-the-studio-mcp-server-works)
+
+1. With Claude Code installed, open your place in Roblox Studio. In Studio, go to **Assistant → … → Manage MCP Servers** and turn on **Enable Studio as MCP server**.
+2. In **Assistant Settings → MCP Servers → Quick connect**, select **Claude Code CLI** (listed as **Claude Code** in Roblox’s guide). If it’s missing, restart Studio after installing Claude Code. [Roblox Quick Connect guide](https://create.roblox.com/docs/studio/mcp#quick-connect)
+3. Start a new local Claude Code session and enter `/mcp` to check the connection. Then ask Claude Code to list your open Studio places with `list_roblox_studios` and inspect `Workspace.SkyhopObby`. [Anthropic’s Claude Code MCP guide](https://code.claude.com/docs/en/mcp#managing-your-servers)
+
 ## Screenshots
 
 **Rainbow Steps**
